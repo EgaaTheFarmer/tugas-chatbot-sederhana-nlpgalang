@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Environment & OS
+.DS_Store
+.vscode/
+.idea/
+
+# Dataset tidak perlu di-deploy (model sudah terlatih)
+Symptom2Disease.csv
+
+# Notebook training tidak perlu di-deploy
+train_model.ipynb
